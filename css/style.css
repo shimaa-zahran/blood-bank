@@ -1,0 +1,422 @@
+                                       body {
+                                           font-family: 'Cairo', sans-serif;
+                                       }
+                                       
+                                       .ficons {
+                                           background-color: #2d3e50;
+                                           color: white;
+                                           height: 30px;
+                                       }
+                                       
+                                       .list {
+                                           display: flex;
+                                           flex-direction: row;
+                                           text-align: center;
+                                           color: white
+                                       }
+                                       
+                                       .list-unstyled i {
+                                           display: inline-block;
+                                           margin-left: 10px;
+                                           padding-right: 10px;
+                                       }
+                                       /* start sec nav */
+                                       
+                                       nav img {
+                                           width: 150px;
+                                       }
+                                       
+                                       .item {
+                                           padding-left: 50px;
+                                       }
+                                       
+                                       .bn {
+                                           border-radius: 10px;
+                                           background-color: #233142;
+                                           color: white
+                                       }
+                                       /* start intro */
+                                       
+                                       .intro {
+                                           background-image: url(../assets/imgs/header.jpg);
+                                           background-repeat: no-repeat;
+                                           background-size: cover;
+                                           padding-bottom: 80px;
+                                       }
+                                       
+                                       .intro h3 {
+                                           padding-top: 10%;
+                                       }
+                                       
+                                       .intro p {
+                                           width: 35%;
+                                           line-height: 2.3;
+                                           text-align: justify;
+                                           color: #363434cf;
+                                       }
+                                       
+                                       .intro-btn {
+                                           background-color: #233142;
+                                           border: none;
+                                           outline: none;
+                                           width: 150px;
+                                       }
+                                       /* start main  */
+                                       
+                                       .main {
+                                           background-image: url(../assets/imgs/subtle-pattern-1.jpg);
+                                           background-size: contain;
+                                       }
+                                       
+                                       .main-desc {
+                                           line-height: 2.3;
+                                           text-align: justify;
+                                           color: #363434cf;
+                                       }
+                                       /* start services */
+                                       
+                                       .our-services h3 {
+                                           border-bottom: 2px solid #ac0f11;
+                                           width: 10%;
+                                           color: #ac0f11;
+                                           padding-bottom: 10px;
+                                       }
+                                       
+                                       h5 {
+                                           color: #ac0f11;
+                                       }
+                                       /* start main */
+                                       
+                                       .detailes h3 {
+                                           text-align: center;
+                                           width: 200px;
+                                           font-weight: bold;
+                                           color: #ac0f11;
+                                           border-bottom: 2px solid #ac0f11;
+                                           margin: 0 auto;
+                                       }
+                                       
+                                       .type {
+                                           decoration: new BoxDecoration;
+                                           color: color;
+                                           border: all;
+                                           width: 120px;
+                                           height: 120px;
+                                           border: 1px solid none;
+                                           border-radius: 50%;
+                                           background-color: #f8f8f8;
+                                           text-align: left;
+                                           margin-top: 7px;
+                                       }
+                                       
+                                       .type h1 {
+                                           text-align: center;
+                                           padding-top: 12px;
+                                           line-height: 68px;
+                                           margin-right: 4px;
+                                           font-weight: bolder;
+                                       }
+                                       /* .info p {
+               line-height: 2.5;
+               text-align: justify;
+           } */
+                                       
+                                       .data p {
+                                           line-height: 2.5;
+                                       }
+                                       
+                                       .box {
+                                           background-color: white;
+                                           border-radius: 0 100px 100px 0;
+                                           margin-top: 10px;
+                                       }
+                                       
+                                       .action {
+                                           width: 240px;
+                                           margin-left: 0;
+                                       }
+                                       
+                                       .action .btn {
+                                           background-color: #f6f6f6;
+                                           border-radius: 0;
+                                           border: none;
+                                           color: rgb(17, 14, 14);
+                                           width: 100%;
+                                           padding: 20px 0;
+                                       }
+                                       
+                                       .action .act {
+                                           background-color: #233142;
+                                           color: white;
+                                       }
+                                       
+                                       .info-btn {
+                                           background-color: #2d3e50;
+                                           border: none;
+                                           width: 170px;
+                                           margin: auto;
+                                           display: block;
+                                           margin-top: 10px;
+                                       }
+                                       /* start call-us */
+                                       
+                                       .call-us {
+                                           background-image: url(../assets/imgs/call.jpg);
+                                           margin-top: 10px;
+                                           background-size: cover;
+                                       }
+                                       
+                                       .call-a {
+                                           color: #ac0f11;
+                                           border-bottom: 2px solid #ac0f11;
+                                           width: 20%;
+                                           text-align: center;
+                                       }
+                                       
+                                       .call-a {
+                                           color: #ac0f11;
+                                           border-bottom: 2px solid #ac0f11;
+                                           width: 20%;
+                                           text-align: center;
+                                       }
+                                       
+                                       .call-link .btn {
+                                           border-radius: 40px;
+                                           display: inline-block;
+                                           width: 220px;
+                                           position: absolute;
+                                           right: 150px;
+                                       }
+                                       
+                                       .call-link img {
+                                           width: 55px;
+                                           position: relative;
+                                           right: 230px;
+                                           top: -3px;
+                                       }
+                                       /* start mobile */
+                                       
+                                       .mobile {
+                                           background-image: url(../assets/imgs/BG-phone.png);
+                                           background-size: contain;
+                                       }
+                                       
+                                       .mobile h3 {
+                                           color: #494243;
+                                       }
+                                       
+                                       .mob {
+                                           padding-top: 30px;
+                                           padding-right: 30px;
+                                       }
+                                       
+                                       .mob p {
+                                           line-height: 2.4;
+                                           color: gray;
+                                       }
+                                       
+                                       .mobile-img {
+                                           display: flex;
+                                           flex-direction: row;
+                                           width: 150px;
+                                           margin-right: 60px;
+                                           padding-top: 10px;
+                                           padding-left: 10px;
+                                       }
+                                       
+                                       .mobile-img .sec {
+                                           padding-right: 10px;
+                                       }
+                                       /* start footer */
+                                       
+                                       footer {
+                                           background-color: #1a1f25;
+                                       }
+                                       
+                                       footer p {
+                                           text-align: justify;
+                                       }
+                                       
+                                       .sec-footer {
+                                           background-color: #14171c;
+                                       }
+                                       
+                                       .sec-footer li {
+                                           color: white;
+                                           display: inline-block;
+                                       }
+                                       /* start login */
+                                       /* first nav */
+                                       
+                                       .li-login {
+                                           color: #ffc107;
+                                       }
+                                       
+                                       .login {
+                                           background-color: #fbfbfb;
+                                       }
+                                       
+                                       .form-control {
+                                           margin-bottom: 20px;
+                                           background-color: #fbfbfb;
+                                           height: 60px;
+                                           border-radius: 0;
+                                       }
+                                       
+                                       .log {
+                                           background-color: white;
+                                           border: 1.5px solid rgb(207, 204, 204);
+                                           padding: 40px;
+                                       }
+                                       
+                                       .log-btn {
+                                           text-align: center;
+                                           margin-top: 10px;
+                                       }
+                                       
+                                       .log-btn .btn {
+                                           padding: 10px 160px;
+                                           border-radius: 0;
+                                           background-color: #3ab54a;
+                                           border: 2px solid rgb(207, 204, 204);
+                                           font-size: 25px;
+                                       }
+                                       /* start log */
+                                       
+                                       .log-brand {
+                                           text-align: center;
+                                       }
+                                       
+                                       .log-a img {
+                                           width: 30px;
+                                       }
+                                       
+                                       .log-a {
+                                           display: flex;
+                                           flex-direction: row;
+                                       }
+                                       
+                                       .log-btn .log-b2 {
+                                           background-color: #2d3e50;
+                                           padding: 10px 100px;
+                                       }
+                                       
+                                       .pag-list a {
+                                           color: #2d3e50;
+                                       }
+                                       
+                                       .page-item.active .page-link {
+                                           color: white;
+                                           background-color: #2d3e50;
+                                       }
+                                       
+                                       .pag-list {
+                                           padding-right: 230px;
+                                       }
+                                       /* start home */
+                                       
+                                       .name {
+                                           color: #ffc107;
+                                       }
+                                       /* .detailes hr {
+                                   margin-top: 1rem;
+                                   margin-bottom: 1rem;
+                                   border: 0;
+                                   border-top: 1px solid green;
+                               } */
+                                       /*  h3 {
+                       width: 200px;
+                       margin: 0 auto;
+                       border-bottom: 3px solid red;
+                       padding-bottom: 15px;
+                   } */
+                                       /* start call index */
+                                       
+                                       .call-img {
+                                           width: 450px;
+                                           margin-right: 40px;
+                                           margin-bottom: 20px;
+                                           margin-top: 20px;
+                                       }
+                                       
+                                       .card-body p {
+                                           line-height: 3;
+                                           font-size: 20px;
+                                       }
+                                       
+                                       .card-body h5 {
+                                           font-weight: 900;
+                                       }
+                                       
+                                       .img-icons {
+                                           width: 70px;
+                                           display: flex;
+                                           flex-direction: row;
+                                           margin-right: 30px;
+                                       }
+                                       
+                                       .img-icons img {
+                                           padding: 0 15px;
+                                       }
+                                       
+                                       .call-a {
+                                           color: white;
+                                           text-align: center;
+                                           background-color: #233142;
+                                           border: none;
+                                           width: 100%;
+                                       }
+                                       
+                                       textarea {
+                                           padding-bottom: 100px !important;
+                                       }
+                                       
+                                       .btn-primary {
+                                           width: 100%;
+                                           border-radius: 0;
+                                           background-color: #233142;
+                                           border: 2px solid rgb(207, 204, 204);
+                                           padding: 15px 0;
+                                       }
+                                       
+                                       .Amap {
+                                           border: 1px solid #f6f6f6;
+                                           background-color: #f4f4f4;
+                                           border-left: none;
+                                           padding: 10px 0;
+                                           text-align: center;
+                                       }
+                                       
+                                       .Bmap {
+                                           border: 1px solid #f6f6f6;
+                                           background-color: #fbfbfb;
+                                           border-right: none;
+                                           padding: 10px 0;
+                                           text-align: center;
+                                       }
+                                       
+                                       .map {
+                                           border: 1px solid #f6f6f6;
+                                           background-color: white;
+                                           padding: 20px;
+                                       }
+                                       
+                                       .map-desc {
+                                           padding: 10px;
+                                           margin-top: 10px;
+                                           border: 1px solid #f6f6f6;
+                                           margin-bottom: 10px;
+                                       }
+                                       
+                                       .map-desc p {
+                                           line-height: 2;
+                                           text-align: justify;
+                                       }
+                                       
+                                       .go-map {
+                                           border: 2px solid lightgray;
+                                       }
+                                       
+                                       .go-map iframe {
+                                           width: 100%;
+                                       }
